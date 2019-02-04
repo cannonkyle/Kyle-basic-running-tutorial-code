@@ -164,7 +164,7 @@ cout << "          +--------+" << endl;
 cout << endl;
 */
 
-//exponents
+//				exponents
 /*
 //write the folllowing math expressions in c==
 // kinematics equation
@@ -191,7 +191,7 @@ s1 = s0 + v0 * dt + ((1 / 2)*g*pow(dt, 2));
 cout << "the distance travelled is : " << s1 << endl;
 */
 
-// strings
+//				strings
 /*
 // playing with strings
 
@@ -209,7 +209,7 @@ char letter = A;
 cout << fname + " " + middleinitial + "." + " " + lname << endl;
 */
 
-//substring
+//				substring
 /*// when using substring .substr(a,b); a is the number place where the first charachter you want to print lies, b is the number of charachters you want to print after that point.
 string greeting = "hello, Kyle Cannon!";
 
@@ -226,7 +226,7 @@ cout << " " << fname << endl;
 cout << " " << lname << endl;
 */
  
-//<iomanip>
+//				<iomanip>
 /*
 //showpoint - display the decimal point
 //fixed - decimal notation
@@ -268,9 +268,10 @@ cout << " " << lname << endl;
 
 */
 
-// tutorial # 4 02/04/2019
 
-	/*double x, y, k;
+//				tutorial # 4 02/04/2019
+/*
+double x, y, k;
 cout << "enter the value of x" << endl;
 cin >> x;
 
@@ -281,7 +282,6 @@ k = ++x * --y;
 
 cout << k << endl;
 */
-
 
 /*
 double x, y, k1, k2, k3, a, b, c, sum = 150, average = 12.368;
@@ -300,6 +300,7 @@ cout << "(a) " << k2 << endl;
 
 k3 = ++x * --y;
 cout << "(c) " << k3 << endl;*/
+
 /*
 cout << "enter the value of a:" << endl;
 cin >> a;
@@ -359,28 +360,23 @@ cout << fixed << setprecision(3) << "h) "
 
 */
 
-
-/*Write a program that processes a transaction and prints a receipt to the user. The program
-should first prompt the user for how many Coffee and Doughnuts they are purchasing.
-The price for the coffee and doughnuts are 4.99 and 1.99 respectively.The receipt should
-have a similar format as the example below. (Note: Ensure all the currency decimal places
-	line up)
-	Jim Hortons
-	Customer Receipt
-	------------------------ -
-	Coffee x2 9.98
-	Doughnut x1 1.99
-	Subtotal 11.97
-	HST % 13 1.56
-	Total 13.53
-	*/
-
+//				reciept
+/*
+//Write a program that processes a transaction and prints a receipt to the user. The program
+//should first prompt the user for how many Coffee and Doughnuts they are purchasing.
+//The price for the coffee and doughnuts are 4.99 and 1.99 respectively.The receipt should
+//have a similar format as the example below. (Note: Ensure all the currency decimal places
+//	line up)
+//	Jim Hortons
+//	Customer Receipt
+//	------------------------ -
+//	Coffee x2 9.98
+//	Doughnut x1 1.99
+//	Subtotal 11.97
+//	HST % 13 1.56
+//	Total 13.53
 	
-
-
-
-
-// set variables
+								// set variables
 double priceOfcoffee = 4.99;
 int numberOfcoffee;
 double coffeeSubtotal;
@@ -426,6 +422,10 @@ cout << setw(2) << "Hst" << setw(14) << "%13" << setw(10) << hst << endl;
 cout << setw(2) << " " << endl;
 cout << setw(2) << "Total" << setw(22) << total << endl;
 
+*/
+
+
+//				Lecture feb 5 2019
 
 
 system("pause");
